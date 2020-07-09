@@ -27,8 +27,11 @@ const FirstApp = ({ congratsSayayin, power }) => {
 }
 
 FirstApp.propTypes = {
-  congratsSayayin: PropType.string.isRequired,
-  power: PropType.number.isRequired
+  congratsSayayin: PropType.string.isRequired
+}
+
+FirstApp.defaultProps = {
+  power: 6000
 }
 
 export default FirstApp

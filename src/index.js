@@ -4,4 +4,4 @@ import FirstAPP from "./FirstAPP"
 import "./index.css"
 
 const divRoot = document.querySelector("#root")
-ReactDOM.render(<FirstAPP congratsSayayin="Hi, I'm Kakaroto" power={5000} />, divRoot)
+ReactDOM.render(<FirstAPP congratsSayayin="Hi, I'm Kakaroto" />, divRoot)
